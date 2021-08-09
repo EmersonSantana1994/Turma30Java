@@ -1,0 +1,81 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author emers
+ */
+public class NewClass {
+    
+
+
+public static void main(String[] args) {
+
+
+    /*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author emers
+ */
+public class NewClass {
+    
+
+
+public static void main(String[] args) {
+
+
+
+
+public class CadAviao {
+
+	public static void main(String[] args) {
+		Aviao aviao1 = new Aviao();
+		aviao1.modelo = "GOL67";
+		aviao1.anoFabricao = 2005;
+		aviao1.tipo = "Comercial";
+		aviao1.numeroAssentos = 38;
+
+		Aviao aviao2 = new Aviao();
+		aviao2.modelo = "A320";
+		aviao2.anoFabricao = 2004;
+		aviao2.tipo = "Particular";
+		aviao2.numeroAssentos = 32;
+
+		System.out.printf("MODELO\t| ANO\t| TIPO\t\t| ASSENTOS");
+		System.out.printf("\n------------------------------------------------------");
+		System.out.printf("\n%s\t| %d\t| %s\t| %s",aviao1.modelo,aviao1.anoFabricao,aviao1.tipo,aviao1.checarAssentoDisponivel(50));
+		System.out.printf("\n------------------------------------------------------");
+		System.out.printf("\n%s\t| %d\t| %s\t| %s",aviao2.modelo,aviao2.anoFabricao,aviao2.tipo,aviao2.checarAssentoDisponivel(2));
+	}
+
+}  
+        
+    
+    
+    
+}
+
+
+
+
+        
+        
+        
+    }
+        
+        
+    
+    
+    
+}
+
+}
+

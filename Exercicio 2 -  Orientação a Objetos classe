@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author emers
+ */
+public class NewClass2 {
+    
+    package lista4Exercicios;
+
+public class CadCliente {
+
+	public static void main(String[] args) {
+		Cliente cliente1 = new Cliente();
+		cliente1.nome = "Emerson";
+		cliente1.cpf = "75787959";
+		cliente1.anoNascimento = 1994;
+
+		Cliente cliente2 = new Cliente();
+		cliente2.nome = "Matheu";
+		cliente2.cpf = "8996999";
+		cliente2.anoNascimento = 1995;
+
+		System.out.printf("NOME\t| CPF\t\t| IDADE");
+		System.out.printf("\n-------------------------------");
+		System.out.printf("\n%s\t| %s\t| %d",cliente1.nome,cliente1.validarCPF(),cliente1.calcularIdade());
+		System.out.printf("\n-------------------------------");
+		System.out.printf("\n%s\t| %s\t| %d",cliente2.nome,cliente2.validarCPF(),cliente2.calcularIdade());
+	}
+
+}
+}
